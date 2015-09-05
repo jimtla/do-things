@@ -1,0 +1,17 @@
+[package]
+name = "do-things"
+version = "0.0.1"
+authors = ["Jim Grandpre <jimtla@gmail.com>"]
+
+[dependencies]
+rustc-serialize = "*"
+typemap = "*"
+plugin = "*"
+rand = "*"
+router = "*"
+
+[dependencies.rethinkdb]
+git = "https://github.com/tomprogrammer/rust-rethinkdb"
+
+[dependencies.iron]
+version = "*"
