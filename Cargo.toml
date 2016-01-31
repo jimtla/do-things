@@ -4,14 +4,16 @@ version = "0.0.1"
 authors = ["Jim Grandpre <jimtla@gmail.com>"]
 
 [dependencies]
-rustc-serialize = "*"
 typemap = "*"
 plugin = "*"
 rand = "*"
 router = "*"
+serde = "*"
+serde_json = "*"
+serde_macros = "*"
 
-[dependencies.rethinkdb]
-git = "https://github.com/tomprogrammer/rust-rethinkdb"
+[dependencies.rethink]
+path = "../rethink-rs"
 
 [dependencies.iron]
 version = "*"
